@@ -132,9 +132,9 @@ program HartreeFock
      real(8) :: h_location = 0.628736
 
      ! C:  2 uncontracted s-funs:    l      coord          exp
-     call add_shell_to_basis(ao_basis,1,(/0.D0,0.D0,0.D0/),(1,0,0))
-     call add_shell_to_basis(ao_basis,1,(/0.D0,0.D0,0.D0/),(0,1,0))
-     call add_shell_to_basis(ao_basis,1,(/0.D0,0.D0,0.D0/),(0,0,1))      
+     call add_shell_to_basis(ao_basis,1,(/0.D0,0.D0,0.D0/),4.D0)
+     call add_shell_to_basis(ao_basis,1,(/0.D0,0.D0,0.D0/),4.D0)
+     call add_shell_to_basis(ao_basis,1,(/0.D0,0.D0,0.D0/),4.D0)      
      call add_shell_to_basis(ao_basis,0,(/0.D0,0.D0,0.D0/),4.D0)
      call add_shell_to_basis(ao_basis,0,(/0.D0,0.D0,0.D0/),1.D0)
      ! H:  1 uncontracted s-fun:     l      coord          exp      
